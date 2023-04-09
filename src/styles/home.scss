@@ -1,0 +1,119 @@
+@import "colors";
+
+#home{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+
+    >section{
+        width: 100%;
+
+       &:first-of-type{
+        padding-left: $p;
+
+        >div{
+          border-top: 1px solid white;
+          height: 100%;
+          padding-top: 6rem;
+          > h1{
+            font: 900 4rem $txt1;
+          }
+          .typewriterpara{
+            margin: 20px 0;
+            letter-spacing: 5px;
+            color: white;
+          }
+
+          >div{
+            display: flex;
+            margin: 5rem 0;
+            width: 70%;
+            gap: 4rem;
+            align-items: center;
+
+            >a{
+              &:first-of-type{
+                background-color:$box;
+                color: black;
+                padding: 1rem 2.5rem;
+                transition: all  0.3s;
+                &:hover{
+                  opacity: 50%;
+                }
+              }
+              &:last-of-type{
+                font: 600 1.2rem $txt2;
+                color: $second;
+                display: flex;
+                align-items: center;
+                background-color: rgba(255, 0, 0, 0.705);
+                padding: 1rem 2.5rem;
+
+                &:hover{
+                  opacity: 50%;
+                }
+
+              }
+            }
+          }
+
+          aside{
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+
+          }
+        }
+       }   
+
+      &:last-of-type{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .hero-image-u45 {
+        
+            height: auto;    
+            background-color: #7e74f1;
+            border-radius: 0.5044rem;
+            flex-shrink: 0;
+            box-sizing: border-box;
+            padding: 0.767rem 1.108rem 0.779rem 0.981rem;    
+            width: 30.6829rem;
+            
+            
+    
+            .front-QmX {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              overflow: hidden;
+              border-radius: 0.5044rem;
+              
+    
+              .person-Z8d {
+                // position: absolute;
+                border-radius: 0.4rem;
+                box-sizing: border-box;
+                
+    
+                .sssss-1-PdT {
+                  border-radius: 0.4rem;
+                  width: 29rem;
+                  height: 40rem;
+                  object-fit: cover;
+                  vertical-align: top;
+                  
+                }
+              }
+        
+            }
+          }
+
+        
+        }
+    }
+
+}
+
+

@@ -1,0 +1,122 @@
+@import "colors";
+
+.services {
+    // position: absolute;
+    // left: 0;
+    background-color: $main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width:auto;
+    height: 270px;
+    text-align: center;
+    color: white;
+
+
+        .service-item {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 500px;
+            height:30rem;
+            background: #FFFFFF;
+            border-radius: 2.76778px;
+            color: black;
+            
+
+
+            .icon3 {
+                position: relative;
+                bottom:3.9rem;
+                // border-radius: 5.54px; 
+                // display: flex;
+                // flex-direction: row;
+                // align-items: center;
+                // justify-content: center;
+                .react{
+                    width:300px;
+                    height:10rem;
+                }
+            }
+
+            .description1 {
+                // position: absolute;
+                // left: 19.72px;
+                // top: 58.47px;
+                // font-family: 'Inter';
+                // font-style: normal;
+                // font-weight: 400;
+                // font-size: 4.84361px;
+                // line-height: 8px;
+                text-align: center;
+                color: #232E35;
+    
+            }
+        }
+
+
+    }   
+       
+
+    //     .title14 {
+    //         top: 2.88rem;
+    //         left: 2.81rem;
+    //         font-size: 0.35rem;
+    //         font-weight: 500;
+    //         text-align: left;
+    //     }
+
+    //     .title15,
+    //     .title16 {
+    //         position: absolute;
+    //         top: 2.79rem;
+    //         left: 1.78rem;
+    //         font-size: 0.35rem;
+    //         font-weight: 500;
+    //         font-family: var(--font-plus-jakarta-sans);
+    //         text-align: left;
+    //     }
+
+    //     .title16 {
+    //         left: 2.35rem;
+    //     }
+
+    //     
+    // }
+
+
+    // .section-title5 {
+    //     // position: absolute;
+    //     // top: 2.47rem;
+    //     // left: 12.97rem;
+    //     width: 5.19rem;
+    //     height: 1.69rem;
+    //     text-align: left;
+    //     font-size: 0.78rem;
+    //     color: var(--color-whitesmoke-200);
+    //     font-family: var(--font-plus-jakarta-sans);
+    // }
+
+    // .above-title5 {
+    //     // position: absolute;
+    //     // top: 0.02rem;
+    //     // left: 0.69rem;
+    //     font-size: 0.26rem;
+    //     letter-spacing: 2.59px;
+    //     line-height: 0.52rem;
+    //     font-weight: 500;
+    //     font-family: var(--font-inter);
+    //     color: var(--cinder-light);
+    //     display: inline-block;
+    //     width: 4.2rem;
+    // }
+
+
+ 
+
+
+
+
+
